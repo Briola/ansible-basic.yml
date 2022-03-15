@@ -10,8 +10,3 @@ jobs:
         with:
           python-version: '3.x'
       - run: ansible --version
-
-      - uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-      - run: ansible --version
